@@ -9,6 +9,19 @@
  */
 
 /**
+ * Función que permite restar dos números.
+ *
+ * @param int $num1 Primer número a restar.
+ * @param int $num2 Segundo número a restar.
+ * @return int La suma de los dos números.
+ * @internal Este comentario solo es visible en el código.
+ */
+function restar($num1, $num2)
+{
+    return $num1 - $num2;
+}
+
+/**
  * Función que permite sumar dos números.
  *
  * @param int $num1 Primer número a sumar.
@@ -31,3 +44,4 @@ function esPar($num)
 {
     return $num % 2 == 0;
 }
+
